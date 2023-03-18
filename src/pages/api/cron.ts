@@ -60,7 +60,7 @@ async function checkBan(key: string) {
 
 async function push(title: string, desp?: string) {
   if (sendKey)
-    await fetch(`https://#/${sendKey}.send`, {
+    await fetch(`https://sctapi.ftqq.com/${sendKey}.send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
