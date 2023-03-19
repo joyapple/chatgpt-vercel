@@ -44,6 +44,10 @@
   --un-prose-invert-links: var(--c-text);
   --un-prose-invert-code: var(--c-text);
   --un-prose-invert-body: var(--c-text);
+  border: 1px solid #e0e0e0;
+    background: #fff;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 .message a {
